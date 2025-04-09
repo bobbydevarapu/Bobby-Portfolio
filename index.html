@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bobby Devarapu - Portfolio</title>
+    <link rel="icon" type="image/png" href="assets/Images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">BD</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+                <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                <li><a href="#certifications"><i class="fas fa-certificate"></i> Certifications</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle" aria-label="Toggle Theme">
+            <span class="toggle-slider">
+                <span class="toggle-icon light-icon"></span>
+                <span class="toggle-icon dark-icon"></span>
+            </span>
+        </button>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text" data-aos="fade-right">
+                <p class="greeting">Hey, Hope You are doing Great!</p>
+                <h1>Bobby Devarapu</h1>
+                <h2 class="about-title">About</h2>
+                <p class="description">I'm an AWS Developer with a strong foundation in cloud technologies and continuously learning full-stack development and ensuring efficient and high-quality work.</p>
+                <div class="animated-text">
+                    <span class="static-text">I'm a </span><span class="changing-text"></span>
+                </div>
+                <div class="cta-buttons">
+                    <a href="#contact" class="cta-btn">Get In Touch</a>
+                    <a href="assets/Resume/ResumeBobby.pdf" download class="cta-btn resume-btn" style="margin-left: 0.5rem;">
+                        Download Resume <i class="fas fa-download"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left">
+                <div class="profile-card">
+                    <img src="assets/Images/profile.jpg" alt="Bobby Devarapu" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <h2 class="section-title" data-aos="fade-up"><i class="fas fa-graduation-cap"></i> Education</h2>
+        <div class="education-container">
+            <div class="education-item" data-aos="zoom-in">
+                <i class="fas fa-university"></i>
+                <h3>B.Tech in Computer Science</h3>
+                <p>Aditya College of Engineering</p>
+                <p>2022-2026 | CGPA: 8.33</p>
+            </div>
+            <div class="education-item" data-aos="zoom-in" data-aos-delay="100">
+                <i class="fas fa-book-open"></i>
+                <h3>Intermediate (XI-XII)</h3>
+                <p>Dr.B R A C S W R Jr College</p>
+                <p>2020-2022 | 89.1%</p>
+            </div>
+            <div class="education-item" data-aos="zoom-in" data-aos-delay="200">
+                <i class="fas fa-school"></i>
+                <h3>AP - SSC (X) </h3>
+                <p>Sri Bharathi Vidyanikethan</p>
+                <p>2019-2020 | 96.59%</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2 class="section-title" data-aos="fade-up"><i class="fas fa-code"></i> My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card skill-left">
+                <div class="dot-connector"></div>
+                <h3>Programming Languages</h3>
+                <h4>C, C++, Python, Java</h4>
+                <p>I possess a solid understanding of C, C++, Python, and Java, with a strong focus on Object-Oriented Programming (OOP) and Data Structures and Algorithms (DSA) utilizing C++. My expertise in the C++ Standard Template Library (STL) enables me to implement efficient algorithms and data handling techniques. Committed to continuous improvement and code optimization.</p>
+            </div>
+            <div class="skill-card skill-right">
+                <div class="dot-connector"></div>
+                <h3>Backend & Database Development</h3>
+                <h4>Amazon Web Services, Google Cloud, MongoDB, Firebase</h4>
+                <p>With a solid foundation in Amazon Web Services, Google Cloud, MongoDB, Firebase, I have developed over 5 projects, including two live applications. My backend expertise allows me to build scalable, secure, and efficient server architectures, integrating seamlessly with both front-end interfaces and databases. Driven by a commitment to full-stack proficiency, I continually advance my skills to deliver robust, end-to-end web solutions.</p>
+            </div>
+            <div class="skill-card skill-left">
+                <div class="dot-connector"></div>
+                <h3>Frontend Development</h3>
+                <h4>HTML, CSS, JS, ReactJs</h4>
+                <p>With extensive experience in HTML, CSS, JavaScript, and ReactJs, I have successfully developed over 5 projects, including two live applications. My expertise spans crafting responsive, interactive, and visually appealing user interfaces with a focus on clean, maintainable code. I'm passionate about delivering intuitive user experiences, consistently refining my skills to stay at the forefront of front-end development.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 class="section-title" data-aos="fade-up"><i class="fas fa-laptop-code"></i> Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card" data-aos="zoom-in">
+                <div class="project-links">
+                    <a href="https://your-demo-link.com" class="project-link" target="_blank">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                    <a href="https://github.com/yourusername/resume-analyzer" class="project-link" target="_blank">GitHub <i class="fab fa-github"></i></a>
+                </div>
+                <div class="project-img hover-effect">
+                    <img src="assets/Images/resume.jpg" alt="Smart Resume Analyzer">
+                </div>
+                <div class="project-content">
+                    <h3>Smart Resume Analyzer + Portfolio Manager</h3>
+                    <p>PHP, MySQL & AI-Powered Resume Review with Dynamic Portfolio Management</p>
+                </div>
+            </div>
+
+            <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+                <div class="project-links">
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7308384748286926848/" class="project-link" target="_blank">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                    <a href="https://github.com/bobbydevarapu/Cpp-Projects/tree/main/Employee%20Mangement" class="project-link" target="_blank">GitHub <i class="fab fa-github"></i></a>
+                </div>
+                <div class="project-img hover-effect">
+                    <img src="assets/Images/employee.jpg" alt="Employee Management System">
+                </div>
+                <div class="project-content">
+                    <h3>Employee Management System (C++)</h3>
+                    <p>C++ Console-based System for Managing Employee Records</p>
+                </div>
+            </div>
+
+            <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+                <div class="project-links">
+                    <a href="https://your-demo-link.com" class="project-link" target="_blank">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                    <a href="https://github.com/yourusername/box-dome" class="project-link" target="_blank">GitHub <i class="fab fa-github"></i></a>
+                </div>
+                <div class="project-img hover-effect">
+                    <img src="assets/Images/moviehub.jpg" alt="Box-Dome - Movie Info Platform">
+                </div>
+                <div class="project-content">
+                    <h3>Box-Dome - Movie Info Platform</h3>
+                    <p>PHP & MySQL-Based Movie Information Portal</p>
+                </div>
+            </div>
+
+            <div class="project-card" data-aos="zoom-in" data-aos-delay="300">
+                <div class="project-links">
+                    <a href="https://your-demo-link.com" class="project-link" target="_blank">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                    <a href="https://github.com/yourusername/weather-dashboard" class="project-link" target="_blank">GitHub <i class="fab fa-github"></i></a>
+                </div>
+                <div class="project-img hover-effect">
+                    <img src="assets/Images/weather.jpg" alt="Weather Dashboard" onerror="this.src='assets/Images/placeholder.jpg';">
+                </div>
+                <div class="project-content">
+                    <h3>Weather Dashboard</h3>
+                    <p>Real-time Weather Application with API Integration</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="section">
+        <h2 class="section-title" data-aos="fade-up"><i class="fas fa-certificate"></i> Certifications</h2>
+        <div class="certifications-container">
+            <div class="cert-card" data-aos="zoom-in">
+                <div class="cert-img hover-effect">
+                    <img src="assets/Images/cert1.jpg" alt="Certification 1" class="cert-image">
+                </div>
+                <div class="cert-content">
+                    <h3>AWS Academy Cloud Developing</h3>
+                    <p>Amazon Web Services | 2024</p>
+                    <div class="cert-links">
+                        <a href="assets/Certification/AwsDeveloping.pdf" download class="cert-link">Download <i class="fas fa-download"></i></a>
+                        <a href="https://www.credly.com/badges/71a31332-aa07-4d6a-a185-5a10f31ad072/public_url" class="cert-link">Link <i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="cert-card" data-aos="zoom-in" data-aos-delay="100">
+                <div class="cert-img hover-effect">
+                    <img src="assets/Images/cert2.jpg" alt="Certification 2" class="cert-image">
+                </div>
+                <div class="cert-content">
+                    <h3>Google Cloud </h3>
+                    <p>Gemini In Gmail| 2023</p>
+                    <div class="cert-links">
+                        <a href="assets/Certification/Goggle.pdf" download class="cert-link">Download <i class="fas fa-download"></i></a>
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7199815946469785600/" class="cert-link">Link <i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="cert-card" data-aos="zoom-in" data-aos-delay="200">
+                <div class="cert-img hover-effect">
+                    <img src="assets/Images/cert3.jpg" alt="Certification 3" class="cert-image">
+                </div>
+                <div class="cert-content">
+                    <h3>CCNA : Introduction to Networks</h3>
+                    <p>Cisco Networking Academy | 2024</p>
+                    <div class="cert-links">
+                        <a href="assets/Certification/CCNA.pdf" download class="cert-link">Download <i class="fas fa-download"></i></a>
+                        <a href="#" class="cert-link">Link <i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="cert-card" data-aos="zoom-in" data-aos-delay="300">
+                <div class="cert-img hover-effect">
+                    <img src="assets/Images/cert4.jpg" alt="Certification 4" class="cert-image">
+                </div>
+                <div class="cert-content">
+                    <h3>IT Specialist</h3>
+                    <p>Certiport | 2024</p>
+                    <div class="cert-links">
+                        <a href="assets/Certification/Java.pdf" download class="cert-link">Download <i class="fas fa-download"></i></a>
+                        <a href="https://www.certiport.com/portal/desktopdefault.aspx?tabid=195&roleid=1" class="cert-link">Link <i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2 class="section-title" data-aos="fade-up"><i class="fas fa-envelope"></i> Contact</h2>
+        <div class="contact-container">
+          <form class="contact-form" method="POST" action="https://formspree.io/f/mnnplakb" data-aos="zoom-in">
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <div id="form-message" style="display: none; text-align: center;"></div>
+            <button type="submit" class="cta-btn small-btn" style="margin: 0 auto; display: block;">Send Message</button>
+          </form>
+        </div>
+      </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/bobby-devarapu-43874a2ab/" data-aos="zoom-in"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/bobbydevarapu" data-aos="zoom-in" data-aos-delay="100"><i class="fab fa-github"></i></a>
+            <a href="https://x.com/BobbyDevara_1" data-aos="zoom-in" data-aos-delay="200"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/bobby_devarapu/" data-aos="zoom-in" data-aos-delay="300"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p data-aos="fade-up">© 2025 - All Rights Reserved by Bobby Devarapu</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
